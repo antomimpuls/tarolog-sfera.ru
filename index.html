@@ -8,7 +8,7 @@
 <meta content="Сильная проверка онлайн: Таро, любовный приворот и защита пары" name="description"/>
 <meta content="Таро и магия любви | Онлайн-помощь" property="og:title"/>
 <meta content="Сильная проверка онлайн: Таро, любовный приворот и защита пары" property="og:description"/>
-<meta content="https://raw.githubusercontent.com/antomimpuls/tarolog-sfera.ru/main/photo.png" property="og:image"/>
+<meta content="https://tarolog-sfera.ru/photo-629afa8f721c4154854fda108566132e.jpg" property="og:image"/>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&amp;family=Lora:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <script>
 const SITE_SETTINGS = {
@@ -24,7 +24,7 @@ const SITE_SETTINGS = {
   'telegramEnabled': 1,
   'telegramNickname': 'AnastasiyaGadaniie',
   'yandexMetrikaId': '113168132',
-  'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/tarolog-sfera.ru/main/photo.png',
+  'psychicImageURL': 'https://tarolog-sfera.ru/photo-629afa8f721c4154854fda108566132e.jpg',
   'workingHours': 'ежедневно 08:00-22:00',
   'responseTime': '5 минут',
   'metrikaMessengerVisible': false,
@@ -645,6 +645,11 @@ h1{background:linear-gradient(135deg,#fff,#22d3ee 50%,#0284c7);-webkit-backgroun
 @media(max-width:768px){.hero-img>[class^="magic-"]{inset:-64px!important}}
 /* HERO_MAGIC_REFRESH_END */
 </style>
+
+<style id="studio-photo-fit">
+.studio-photo-backdrop{position:absolute;inset:7px;border-radius:50%;overflow:hidden;z-index:1;background:center/cover no-repeat url("https://tarolog-sfera.ru/photo-629afa8f721c4154854fda108566132e.jpg");filter:blur(8px);opacity:.85;pointer-events:none}
+.hero-img #psychicImage{box-sizing:border-box!important;object-fit:contain!important;object-position:center!important;padding:12%!important;background:transparent!important}
+</style>
 </head>
 <body>
 <div class="sticky-messengers" id="stickyMessengers">
@@ -667,7 +672,7 @@ h1{background:linear-gradient(135deg,#fff,#22d3ee 50%,#0284c7);-webkit-backgroun
 </div>
 <div>
 <div class="hero-img">
-<img alt="Портрет: гадалка" id="psychicImage" src="https://raw.githubusercontent.com/antomimpuls/tarolog-sfera.ru/main/photo.png"/>
+<span class="studio-photo-backdrop" aria-hidden="true"></span><img alt="Портрет: гадалка" id="psychicImage" src="https://tarolog-sfera.ru/photo-629afa8f721c4154854fda108566132e.jpg"/>
 <div class="magic-astrolabe"><svg viewBox="0 0 520 520"><circle class="a1" cx="260" cy="260" r="190"/><circle class="a2" cx="260" cy="260" r="132"/><line class="a3" x1="70" y1="260" x2="450" y2="260"/><line class="a3" x1="260" y1="70" x2="260" y2="450"/></svg></div>
 </div>
 <div class="psychic-name" id="heroName">
